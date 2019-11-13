@@ -1,0 +1,36 @@
+.container{
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+form {
+  margin: 20px;
+}
+form input {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+ul li {
+  margin-bottom: 10px;
+}
+ul li button{
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+ul li button.statusBtn{
+  background-color: #fdfd9d;
+}
+ul li button.deleteBtn{
+  background-color: #f57878;
+}
+div button{
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
